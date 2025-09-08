@@ -14,7 +14,7 @@ pipeline{
         }
         stage('Deploy') {
             steps {
-                bat 'java -jar build/libs/SCCPracticalExercise-1.0.jar'
+                bat 'java -jar build/libs/SCCPracticalExercise-1.0.jar < input.txt'
             }
         } 
     }
