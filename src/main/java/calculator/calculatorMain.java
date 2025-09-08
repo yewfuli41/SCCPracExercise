@@ -6,7 +6,6 @@ public class calculatorMain {
 		// TODO Auto-generated method stub
 		Calculator calculator = new Calculator();
         Scanner sc = new Scanner(System.in);
-        String s = sc.nextLine();
         System.out.println("Simple Calculator");
         System.out.print("Enter first number: ");
         
