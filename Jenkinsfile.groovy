@@ -7,10 +7,10 @@ pipeline{
             }
         }
         stage('Build') {
-            steps { bat 'gradlew build'}
+            steps { bat 'gradle build'}
         }
         stage('Test') {
-            steps { bat 'gradlew test'}
+            steps { bat 'gradle test'}
         }
         stage('Deploy') {
             steps {
